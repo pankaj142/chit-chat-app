@@ -8,10 +8,10 @@ const PublicPath = path.join(__dirname, '../public')
 //middlewares
 app.use(express.static(PublicPath));
 
-//routes
-// app.get('/', (req,res)=>{
-//     res.sendFile('index.html');
-// })
+// routes
+app.get('/', (req,res)=>{
+    res.sendFile('index.html');
+})
 
 app.listen(3000, ()=>{
     console.log(`Server is Up on port ${port}`);
