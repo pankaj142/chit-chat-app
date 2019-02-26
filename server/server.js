@@ -13,6 +13,6 @@ app.get('/', (req,res)=>{
     res.sendFile('index.html');
 })
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log(`Server is Up on port ${port}`);
 });
