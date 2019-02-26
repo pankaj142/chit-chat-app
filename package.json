@@ -11,9 +11,7 @@
     "socket",
     "nodejs"
   ],
-  "engines":{
-    "node":"10.14.2" 
-  },
+  
   "author": "pankaj agham",
   "license": "ISC",
   "dependencies": {
